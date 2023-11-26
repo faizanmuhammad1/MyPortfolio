@@ -17,9 +17,9 @@ function AppRoutes() {
 
   return (
     <>
-      <Navbar />
       <Router>
         <div onMouseMove={mouseMove}>
+          <Navbar />
           <Routes>
             <Route path="/" element={<PortfolioPage />} />
           </Routes>
