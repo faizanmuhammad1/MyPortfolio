@@ -3,9 +3,9 @@ import React from "react";
 export function Navbar() {
   return (
     <div>
-      <nav className="bg-gray-800 p-6">
-        <div className="container mx-auto">
-          <div className="flex items-center justify-between">
+      <nav className="bg-gray-800 p-4">
+        <div className="w-full">
+          <div className="flex justify-between px-6">
             <div className="text-white font-bold text-lg">
               <a href="/">
                 <svg
@@ -20,7 +20,7 @@ export function Navbar() {
                 </svg>
               </a>
             </div>
-            <div className="flex space-x-6">
+            <div className="flex items-center gap-4">
               <a href="/" className="text-white hover:text-gray-300">
                 Home
               </a>
