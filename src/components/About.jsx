@@ -10,9 +10,9 @@ const About = () => {
         <Character />
       </div>
       <div className="text-center p-4">
-        <h2 className="text-6xl font-bold mb-2 ">I am Faizan Muhammad 👨‍💻</h2>
+        <h2 className="text-2xl font-bold mb-2 ">I am Faizan Muhammad 👨‍💻</h2>
       </div>
-      <div className="text-center text-4xl">
+      <div className="text-center text-1xl">
         <p>
           A passionate learner currently focusing on MERN Stack development.
           &#x2764;
