@@ -10,15 +10,17 @@ const About = () => {
         <Character />
       </div>
       <div className="text-center p-4">
-        <h2 className="text-2xl font-bold mb-2 ">I am Faizan Muhammad 👨‍💻</h2>
+        <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-2 ">
+          I am Faizan Muhammad 👨‍💻
+        </h2>
       </div>
-      <div className="text-center text-sm	">
+      <div className="text-center text-sm	md:text-xl lg:text-4xl">
         <p>
           A passionate learner currently focusing on MERN Stack development.
           &#x2764;
         </p>
       </div>
-      <div className="flex justify-center gap-2 my-8">
+      <div className="flex justify-center gap-2 md:gap-4 lg:gap-6 my-8">
         <SocialIcon url="https://github.com" />
         <SocialIcon url="https://x.com" />
         <SocialIcon url="https://leetcode.com" />
